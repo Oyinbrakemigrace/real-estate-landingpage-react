@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:sans-serif;
+}
+
+.first{
+    background-image: url(../assets/bg1.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position-y:center;
+}
+
+.first .date{
+    color: #00BAF2;
+    font-size: 25px;
+}
+
+.first .next{
+    font-size: 30px;
+}
+
+.first .form{
+    background-color:rgba(205, 207, 208, 0.7);
+    padding: 2rem;
+}
+
+.first .form-group input{
+    border-radius: 1rem;
+    border-style:inset;
+}
+
+.first .form label{
+    color: #29282883;
+    font-weight: 700;
+}
+
+.first .form .btn{
+    background-color: #00BAF2;
+    width: 100%;
+    height: 3rem;
+    border-radius: 1rem;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.second{
+    background-color: #E5E5E5;
+    padding: 1.5rem;
+    font-weight: 400;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.third{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+}
+
+.third p{
+    width: 70%;
+    margin:auto ;
+    margin-top: 1rem;
+    color: #7c7c7c;
+    font-size: 18px;
+}
+
+.third img{
+    border-radius: 10rem;
+}
+
+
+.fourth{
+    background-image: url(../assets/map.jpg);
+    color: #ffffff;
+}
+
+
+.fourth .title{
+    color: #00BAF2;
+    font-size: 50px;
+    font-weight: 600;
+    
+}
+
+
+.fifth .browntable{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3rem;
+
+}
+
+.fifth .browntable p{
+    font-size: 2rem;
+    width: 80%;
+    font-weight: 800;
+}
+
+.fifth .blacktable{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fifth .bathtub{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3rem;
+}
+
+.sixth{
+    background-image: url(../assets/whatAreYouLookingForBg.jpg);
+    padding: 1rem;
+    align-items: center;
+}
+
+.sixth .btn{
+    background-color: #00BAF2;
+    height: 3rem;
+    border-radius: 2rem;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.seventh .d-flex img{
+    border-radius: 10rem;
+}
+
+.eighth{
+    background-image: url(../assets/quotebg.jpg);
+}
+
+.footer{
+    background-color:black;
+    padding: 1rem;
+}
+
+.footer .address{
+    color: #a3a3a3;
+}
+
