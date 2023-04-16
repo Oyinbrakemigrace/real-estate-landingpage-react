@@ -170,14 +170,14 @@ return (
             <div className="row">
                 <div>
                 <div className="browntable d-flex flex-md-row flex-column"  data-aos="fade-right" data-aos-duration="500" data-aos-delay="400">
-        <img src={browntable} alt="browntable" className="mx-5" />
-        <p className=" mx-5" data-aos="fade-left" data-aos-duration="500" data-aos-delay="400">
+        <img src={browntable} alt="browntable" className="mx-md-5 mx-0" />
+        <p className=" mx-md-5 mx-0 my-5" data-aos="fade-left" data-aos-duration="500" data-aos-delay="400">
             Now also renting a wide range of furnished and serviced apartments.
         </p>
         </div>
 
         <div className="blacktable w-70 d-flex flex-md-row flex-column">
-        <div className="mx-5" data-aos="fade-right" data-aos-duration="500" data-aos-delay="400" >
+        <div className="" data-aos="fade-right" data-aos-duration="500" data-aos-delay="400" >
             <h3>Details</h3>
             <ul>
             <li>Exotic hardwoods</li>
@@ -195,7 +195,7 @@ return (
         </div>
 
         <div data-aos="fade-left" data-aos-duration="500" data-aos-delay="400">
-            <img src={blacktable} alt="table" />
+            <img src={blacktable} alt="table"/>
         </div>
         </div>
 

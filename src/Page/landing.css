@@ -21,6 +21,19 @@
     font-size: 30px;
 }
 
+@media(max-width:576px){
+    .first h1{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .first .next, .first .date{
+        text-align: center;
+        font-size: 18px;
+    }
+}
+
+
 .first .form{
     background-color:rgba(205, 207, 208, 0.7);
     padding: 2rem;
@@ -102,9 +115,27 @@
     font-weight: 800;
 }
 
+@media(max-width:576px){
+    .fifth .browntable p{
+        font-size: 20px;
+        width: 100%;
+        font-weight: 600;
+        margin: auto;
+    }
+}
+
+
 .fifth .blacktable{
     display: flex;
     justify-content: space-evenly;
+}
+
+@media(max-width:576px){
+    .fifth .blacktable img{
+        width: 70%;
+        display: block;
+        margin: auto;
+    }
 }
 
 .fifth .bathtub{
@@ -112,6 +143,16 @@
     justify-content: space-evenly;
     padding: 3rem;
 }
+
+@media(max-width:576px){
+    .fifth .bathtub img{
+        width: 90%;
+        display: block;
+        margin: auto;
+        padding-bottom: 2rem;
+    }
+}
+
 
 .sixth{
     background-image: url(../assets/whatAreYouLookingForBg.jpg);
@@ -130,6 +171,12 @@
 
 .seventh .d-flex img{
     border-radius: 10rem;
+}
+
+@media(max-width:576px){
+    .seventh p{
+        text-align: center;
+    }
 }
 
 .eighth{
